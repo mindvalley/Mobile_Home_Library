@@ -42,7 +42,10 @@ public class AcademiesModel {
 
     String purchased_at;
 
-    public AcademiesModel(long id, String name, String domain, String awc_product_id, String theme_color, int nps_score, String updated_at, long last_opened_course_id, long featured_course_id, long tribelearn_tribe_id, String cover_photo_url,String course_ordering, boolean subscription,boolean purchased, List<AuthorModel> authors,String purchased_at) {
+    public AcademiesModel() {
+    }
+
+    public AcademiesModel(long id, String name, String domain, String awc_product_id, String theme_color, int nps_score, String updated_at, long last_opened_course_id, long featured_course_id, long tribelearn_tribe_id, String cover_photo_url, String course_ordering, boolean subscription, boolean purchased, List<AuthorModel> authors, String purchased_at) {
         this.id = id;
         this.name = name;
         this.domain = domain;

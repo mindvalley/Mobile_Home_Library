@@ -23,37 +23,51 @@ public class JsonParsingTest {
 
 
     @Test
-    public void validateAuthors(){
+    public void validateCourseCoverImages() {
 
-        AuthorModel authorModel=new AuthorModel(1,"Vishen Lakhiani",null);
-        Assert.assertNotNull(authorModel.getName());
-        Assert.assertTrue(authorModel.getId()>0);
+        AcademiesModel academy = new AcademiesModel();
+
+        List<String> course_cover_images=new ArrayList<>();
+        course_cover_images.add("imgUrl");
+        academy.setCourse_cover_images(course_cover_images);
+
+        Assert.assertNotNull(academy.getCourse_cover_images());
+        Assert.assertTrue(academy.getCourse_cover_images().size() > 0);
+
     }
 
     @Test
-    public void validateSubscription(){
+    public void validateAuthors() {
 
-        AcademiesModel academy=new AcademiesModel(1, "test", "domain", "", "#987A42", 2, "", 3, 1, 6, "", "published_asc", true, true, null, "");
+        AuthorModel authorModel = new AuthorModel(1, "Vishen Lakhiani", null);
+        Assert.assertNotNull(authorModel.getName());
+        Assert.assertTrue(authorModel.getId() > 0);
+    }
+
+    @Test
+    public void validateSubscription() {
+
+        AcademiesModel academy = new AcademiesModel(1, "test", "domain", "", "#987A42", 2, "", 3, 1, 6, "", "published_asc", true, true, null, "");
 
         Assert.assertNotNull(academy.getName());
-        Assert.assertTrue(academy.getId()>0);
+        Assert.assertTrue(academy.getId() > 0);
         Assert.assertNotNull(academy.getTheme_color());
         Assert.assertTrue(academy.getTheme_color().startsWith("#"));
-        Assert.assertTrue(academy.getTheme_color().length()>4);
+        Assert.assertTrue(academy.getTheme_color().length() > 4);
         Assert.assertTrue(academy.isSubscription());
 
     }
 
     @Test
-    public void validatePremium(){
+    public void validatePremium() {
 
-        AcademiesModel academy=new AcademiesModel(1, "test", "domain", "", "#987A42", 2, "", 3, 1, 6, "", "published_asc", false, true, null, "");
+        AcademiesModel academy = new AcademiesModel(1, "test", "domain", "", "#987A42", 2, "", 3, 1, 6, "", "published_asc", false, true, null, "");
 
         Assert.assertNotNull(academy.getName());
-        Assert.assertTrue(academy.getId()>0);
+        Assert.assertTrue(academy.getId() > 0);
         Assert.assertNotNull(academy.getTheme_color());
         Assert.assertTrue(academy.getTheme_color().startsWith("#"));
-        Assert.assertTrue(academy.getTheme_color().length()>4);
+        Assert.assertTrue(academy.getTheme_color().length() > 4);
         Assert.assertFalse(academy.isSubscription());
 
     }
@@ -67,7 +81,7 @@ public class JsonParsingTest {
 
         Assert.assertNotNull(academies.get(0).getName());
         Assert.assertFalse(academies.get(1).isPurchased());
-        Assert.assertEquals(1,academies.get(0).getAuthors().get(5).getId());
+        Assert.assertEquals(1, academies.get(0).getAuthors().get(5).getId());
     }
 
     public List<AuthorModel> getAuthors() {
