@@ -1,6 +1,7 @@
 package com.mindvalley.home_library.retrofit_services;
 
 import com.mindvalley.home_library.model.ResponseAcademiesModel;
+import com.mindvalley.home_library.model.ResponseCoursesModel;
 
 
 import retrofit2.Call;
@@ -20,6 +21,12 @@ public interface HomeLibServices {
                                               @Query("per_page") int per_page,
                                               @Query("last_updated_at") String last_update_at,
                                               @Header("Authorization") String auth_header);
+
+    @GET("/v2/mobile/courses/")
+    Call<ResponseCoursesModel> getCourses(@Query("page") int page_num,
+                                          @Query("per_page") int per_page,
+                                          @Query("last_updated_at") String last_update_at,
+                                          @Header("Authorization") String auth_header);
 
 
 }
