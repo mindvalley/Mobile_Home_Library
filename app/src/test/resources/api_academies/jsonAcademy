@@ -1,0 +1,28 @@
+ {
+            "id": 33,
+            "domain": "tantratouch.mindvalley.com",
+            "name": "Tantra Touch",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "711",
+            "theme_color": "#0A0A0A",
+            "tribelearn_tribe_id": "716",
+            "course_ordering": "published_asc",
+            "authors": [
+                {
+                    "id": 56,
+                    "name": "Psalm Isadora",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/0839e50e-77f8-4de2-bd1e-f573222408db.jpg"
+                }
+            ],
+            "number_of_courses": 9,
+            "featured_course_id": 672,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/fc2797dd-62ac-4913-b089-ddd93b65e22a.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/b797ac97-eee7-46ea-b66f-4e93de663447.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/3c43e12a-17a8-426e-9705-bc4b3f3a76d9.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/89de239f-4ef5-4d27-8e9c-6165a85d98de.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-05-30T07:16:32Z"
+        }

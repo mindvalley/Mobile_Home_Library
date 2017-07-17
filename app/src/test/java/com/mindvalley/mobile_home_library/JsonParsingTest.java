@@ -1,18 +1,19 @@
 package com.mindvalley.mobile_home_library;
 
-import com.mindvalley.home_library.controller.apis.AcademiesAPI;
+import com.google.gson.Gson;
 import com.mindvalley.home_library.model.AcademiesModel;
 import com.mindvalley.home_library.model.AuthorModel;
-import com.mindvalley.home_library.model.ResponseAcademiesModel;
 
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -21,33 +22,52 @@ import static org.junit.Assert.*;
  */
 public class JsonParsingTest {
 
+    private String parseJsonFile(String filePath) throws IOException {
+
+        InputStream is = getClass().getClassLoader().getResourceAsStream(filePath);
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
+
+        String line = null;
+        StringBuilder sb = new StringBuilder();
+
+        while ((line = br.readLine()) != null) {
+            sb.append(line);
+        }
+
+        String json = sb.toString();
+        return json;
+    }
 
     @Test
     public void validateCourseCoverImages() {
 
-        AcademiesModel academy = new AcademiesModel();
-
-        List<String> course_cover_images=new ArrayList<>();
-        course_cover_images.add("imgUrl");
-        academy.setCourse_cover_images(course_cover_images);
-
-        Assert.assertNotNull(academy.getCourse_cover_images());
-        Assert.assertTrue(academy.getCourse_cover_images().size() > 0);
+//        List<String> course_cover_images = new Gson().fromJson("json_course_cover_images",List<>);
+//
+//        Assert.assertTrue(course_cover_images.size() > 0);
 
     }
 
     @Test
     public void validateAuthors() {
 
-        AuthorModel authorModel = new AuthorModel(1, "Vishen Lakhiani", null);
-        Assert.assertNotNull(authorModel.getName());
-        Assert.assertTrue(authorModel.getId() > 0);
+
+        AuthorModel authorModel = null;
+        try {
+            authorModel = new Gson().fromJson(parseJsonFile("api_academies/jsonAuthor"), AuthorModel.class);
+            Assert.assertNotNull(authorModel.getName());
+            Assert.assertTrue(authorModel.getId() > 0);
+            Assert.assertTrue(authorModel.getId() == 58);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Test
     public void validateSubscription() {
 
-        AcademiesModel academy = new AcademiesModel(1, "test", "domain", "", "#987A42", 2, "", 3, 1, 6, "", "published_asc", true, true, null, "");
+        AcademiesModel academy = new Gson().fromJson("api_academies/jsonAcademy",AcademiesModel.class);
 
         Assert.assertNotNull(academy.getName());
         Assert.assertTrue(academy.getId() > 0);
