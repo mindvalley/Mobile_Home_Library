@@ -7,19 +7,19 @@ package com.mindvalley.home_library.model;
 public class ResponseAcademiesModel {
 
     MetaModel meta;
-    AcademiesModel[] academies;
-    AcademiesCountModel academies_count;
+    AcademyModel[] academies;
+    AcademyCountModel academies_count;
     long[] deleted_academies;
 
     public MetaModel getMeta() {
         return meta;
     }
 
-    public AcademiesModel[] getAcademies() {
+    public AcademyModel[] getAcademies() {
         return academies;
     }
 
-    public AcademiesCountModel getAcademies_count() {
+    public AcademyCountModel getAcademies_count() {
         return academies_count;
     }
 

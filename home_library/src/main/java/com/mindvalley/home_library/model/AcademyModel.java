@@ -6,7 +6,7 @@ import java.util.List;
  * Created by mindvalley on 12/07/2017.
  */
 
-public class AcademiesModel {
+public class AcademyModel {
 
     long id;
 
@@ -21,8 +21,6 @@ public class AcademiesModel {
     int nps_score;
 
     String updated_at;
-
-    long last_opened_course_id;
 
     long featured_course_id;
 
@@ -42,29 +40,6 @@ public class AcademiesModel {
 
     String purchased_at;
 
-    public AcademiesModel() {
-    }
-
-    public AcademiesModel(long id, String name, String domain, String awc_product_id, String theme_color, int nps_score, String updated_at, long last_opened_course_id, long featured_course_id, long tribelearn_tribe_id, String cover_photo_url, String course_ordering, boolean subscription, boolean purchased, List<AuthorModel> authors, String purchased_at) {
-        this.id = id;
-        this.name = name;
-        this.domain = domain;
-        this.awc_product_id = awc_product_id;
-        this.theme_color = theme_color;
-        this.nps_score = nps_score;
-        this.updated_at = updated_at;
-        this.last_opened_course_id = last_opened_course_id;
-        this.authors = authors;
-        this.featured_course_id = featured_course_id;
-        this.tribelearn_tribe_id = tribelearn_tribe_id;
-        this.cover_photo_url = cover_photo_url;
-        this.course_ordering=course_ordering;
-        this.subscription = subscription;
-        this.purchased = purchased;
-        this.purchased_at =purchased_at;
-
-    }
-
     public long getId() {
         return id;
     }
@@ -74,7 +49,10 @@ public class AcademiesModel {
     }
 
     public String getName() {
-        return name;
+        if (name != null && name.length() > 0)
+            return name;
+        else
+            return "Name not found";
     }
 
     public void setName(String name) {
@@ -98,6 +76,16 @@ public class AcademiesModel {
     }
 
     public String getTheme_color() {
+        if (theme_color==null) {
+            //using a dark blue default color
+            theme_color="#002232";
+        }
+        else if (!theme_color.startsWith("#")) {
+            theme_color="#"+theme_color;
+        }
+        while (theme_color.length()<4)
+            theme_color+="f";
+
         return theme_color;
     }
 
@@ -119,14 +107,6 @@ public class AcademiesModel {
 
     public void setUpdated_at(String updated_at) {
         this.updated_at = updated_at;
-    }
-
-    public long getLast_opened_course_id() {
-        return last_opened_course_id;
-    }
-
-    public void setLast_opened_course_id(long last_opened_course_id) {
-        this.last_opened_course_id = last_opened_course_id;
     }
 
     public long getFeatured_course_id() {

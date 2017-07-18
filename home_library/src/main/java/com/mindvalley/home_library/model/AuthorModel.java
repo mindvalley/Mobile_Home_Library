@@ -12,11 +12,6 @@ public class AuthorModel {
 
     String asset_cover_url;
 
-    public AuthorModel(long id, String name, String asset_cover_url) {
-        this.id = id;
-        this.name = name;
-        this.asset_cover_url = asset_cover_url;
-    }
 
     public long getId() {
         return id;
@@ -27,7 +22,10 @@ public class AuthorModel {
     }
 
     public String getName() {
-        return name;
+        if (name != null && name.length() > 0)
+            return name;
+        else
+            return "Name not available";
     }
 
     public void setName(String name) {
@@ -35,7 +33,10 @@ public class AuthorModel {
     }
 
     public String getAsset_cover_url() {
-        return asset_cover_url;
+        if (asset_cover_url != null && asset_cover_url.length() > 0)
+            return asset_cover_url;
+        else
+            return "URL not found";
     }
 
     public void setAsset_cover_url(String asset_cover_url) {

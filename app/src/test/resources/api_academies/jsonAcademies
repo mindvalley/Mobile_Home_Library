@@ -1,0 +1,668 @@
+{
+    "meta": {
+        "total": 11,
+        "page": "1",
+        "limit": 20,
+        "previous": null,
+        "next": null
+    },
+    "academies": [
+        {
+            "id": 33,
+            "domain": "tantratouch.mindvalley.com",
+            "name": "Tantra Touch",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "711",
+            "theme_color": "#0A0A0A",
+            "tribelearn_tribe_id": "716",
+            "course_ordering": "published_asc",
+            "authors": [
+                {
+                    "id": 56,
+                    "name": "Psalm Isadora",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/0839e50e-77f8-4de2-bd1e-f573222408db.jpg"
+                }
+            ],
+            "number_of_courses": 9,
+            "featured_course_id": 672,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/fc2797dd-62ac-4913-b089-ddd93b65e22a.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/b797ac97-eee7-46ea-b66f-4e93de663447.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/3c43e12a-17a8-426e-9705-bc4b3f3a76d9.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/89de239f-4ef5-4d27-8e9c-6165a85d98de.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-05-30T07:16:32Z"
+        },
+        {
+            "id": 29,
+            "domain": "ul.mindvalley.com",
+            "name": "Uncompromised Life",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "697",
+            "theme_color": "#195C77",
+            "tribelearn_tribe_id": null,
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 124,
+                    "name": "Marisa Peer",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/474e24f8-a1c7-4eb4-95e7-7fb904508cb5.jpg"
+                }
+            ],
+            "number_of_courses": 9,
+            "featured_course_id": 590,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/f91e2e38-9965-4a58-9eb4-d2fd28210765.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/d6992395-b72b-4ecc-bb43-7abc9ef13373.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/6c7d7689-194b-4f5c-bfa7-6734b803fa50.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/bb6d16ff-992a-4ed3-8d16-d078727ccadb.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-05-30T07:14:21Z"
+        },
+        {
+            "id": 38,
+            "domain": "spirituallaws.mindvalley.com",
+            "name": "Spiritual Laws of Money",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "560",
+            "theme_color": "#2C7A39",
+            "tribelearn_tribe_id": null,
+            "course_ordering": "published_asc",
+            "authors": [
+                {
+                    "id": 58,
+                    "name": "T. Harv Eker",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/da29dfd3-cd3b-4a00-a88d-ae1706f436e2.png"
+                }
+            ],
+            "number_of_courses": 9,
+            "featured_course_id": 765,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/8f544bb3-0914-4a5c-85ed-fefdf80ca73e.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/e75474fd-f828-4442-8122-3f0f3040203f.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/1b42b1f1-749c-49bc-aa65-fb534e3a88cc.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/48076534-b31b-4e76-83a3-392d3a206d8d.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-17T11:09:39Z"
+        },
+        {
+            "id": 45,
+            "domain": "energymedicine.mindvalley.com",
+            "name": "Energy Medicine",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "858",
+            "theme_color": "#061A3C",
+            "tribelearn_tribe_id": null,
+            "course_ordering": "published_asc",
+            "authors": [
+                {
+                    "id": 229,
+                    "name": "Donna Eden",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/f7266f55-5d35-4178-a12a-6a5d9c070d13.jpg"
+                }
+            ],
+            "number_of_courses": 10,
+            "featured_course_id": 1049,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/71c01a9f-6e39-4510-b2c1-d31bad64fb3d.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/5bfff5db-3d66-4598-a0d8-d18e39e53154.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/dad4d346-1e5d-4260-840d-5de6a7ffd4b8.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/e5e30181-837e-482c-aba9-0978754ce434.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-17T11:09:29Z"
+        },
+        {
+            "id": 24,
+            "domain": "learn.becomelimitless.com",
+            "name": "Becoming Limitless",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "612",
+            "theme_color": "#103554",
+            "tribelearn_tribe_id": "17",
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 1,
+                    "name": "Vishen Lakhiani",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/ffb1291a-fc3d-4a3a-9a06-03c9e40c1455.jpg"
+                }
+            ],
+            "number_of_courses": 10,
+            "featured_course_id": 394,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/c5e64964-2d0b-4f08-9612-1f9e724899f3.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/eafad433-5119-450d-bb89-4339fd77b664.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/1e004373-f69b-4602-ba69-df3a6a9fe9b7.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/f9e43f9e-5740-4611-a178-cff08925a44a.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-17T11:09:22Z"
+        },
+        {
+            "id": 3,
+            "domain": "team.mindvalley.com",
+            "name": "Mindvalley Team Academy",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "857",
+            "theme_color": "#1099D1",
+            "tribelearn_tribe_id": null,
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 2,
+                    "name": "Sam Altman",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 4,
+                    "name": "Mindvalley",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/c02c9f0a-003c-448e-a752-099833935855.jpg"
+                },
+                {
+                    "id": 1,
+                    "name": "Vishen Lakhiani",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/ffb1291a-fc3d-4a3a-9a06-03c9e40c1455.jpg"
+                },
+                {
+                    "id": 84,
+                    "name": "Marketing Funnel Automation",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 113,
+                    "name": "Maria Visanoiu",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 148,
+                    "name": "Eric T. Strauss",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 150,
+                    "name": "Kah Yoong Khoo",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/2200aeae-966f-45e3-93da-a86cf7d69eb3.jpg"
+                },
+                {
+                    "id": 151,
+                    "name": "Marta Kondryn",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 175,
+                    "name": "Film Team",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 245,
+                    "name": "Heily Hindrea",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/b828d515-9c02-41fa-bd36-cab13d52469d.jpg"
+                }
+            ],
+            "number_of_courses": 25,
+            "featured_course_id": 0,
+            "cover_photo_url": null,
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/c6f8026c-ab53-4fcd-b3de-7b43222e3248.png",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/5a4f12bc-1df6-4966-9cc8-64a97b0231d3.png",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/e0f87a5f-167c-483c-bc83-e6a11b58ccca.jpeg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-15T13:45:50Z"
+        },
+        {
+            "id": 31,
+            "domain": "extraordinary.mindvalley.com",
+            "name": "Extraordinary By Design",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "683",
+            "theme_color": "#2E2E2E",
+            "tribelearn_tribe_id": "22",
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 1,
+                    "name": "Vishen Lakhiani",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/ffb1291a-fc3d-4a3a-9a06-03c9e40c1455.jpg"
+                }
+            ],
+            "number_of_courses": 13,
+            "featured_course_id": 607,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/6bb34624-a42e-492d-8f81-1080caa3b4df.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/e9538883-fe33-41ae-afc1-9384ca223a2f.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/21a36b35-bdc3-4376-81e6-90445b708c15.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/0cf82ac8-5a80-4b9c-b349-cc670c0ca522.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-15T13:30:32Z"
+        },
+        {
+            "id": 10,
+            "domain": "learn.thebiglife.com",
+            "name": "The Big Life",
+            "type": "Academy::Channel",
+            "subscription": true,
+            "awc_product_id": "468",
+            "theme_color": "#051924",
+            "tribelearn_tribe_id": null,
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 25,
+                    "name": "Carl Harvey ",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/40619b4c-d975-4e06-a0bd-159957465229.png"
+                }
+            ],
+            "number_of_courses": 102,
+            "featured_course_id": 563,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/af8e5aa9-81b6-4206-a8e7-759241f07f6e.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/52d2a0d3-2b07-452e-9623-1a1449571fa3.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/71472d5b-3236-4893-ab2c-c4b46568262f.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/a820022f-2bda-4ce2-92d7-a94b854def4f.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-14T10:25:30Z"
+        },
+        {
+            "id": 37,
+            "domain": "modernmaster.mindvalley.com",
+            "name": "Be A Modern Master",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "718",
+            "theme_color": "#987A42",
+            "tribelearn_tribe_id": "721",
+            "course_ordering": "published_asc",
+            "authors": [
+                {
+                    "id": 13,
+                    "name": "Deborah King",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/2565dda0-3cdf-4e87-b202-937dac7e228b.png"
+                }
+            ],
+            "number_of_courses": 7,
+            "featured_course_id": 729,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/190d5ba9-abd2-4cc5-8a4c-4a03e06bfc96.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/022b0f11-dd87-41fa-aefc-72ee71fa1831.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/6d4a076a-b2b6-410d-bf5e-1ce203197a21.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/eb36c8a1-1585-4379-91d6-b32d5f420b71.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-14T10:06:15Z"
+        },
+        {
+            "id": 25,
+            "domain": "learn.dualitycourse.com",
+            "name": "Duality ",
+            "type": "Academy::Channel",
+            "subscription": false,
+            "awc_product_id": "602",
+            "theme_color": "#3C6882",
+            "tribelearn_tribe_id": null,
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 85,
+                    "name": "Jeffrey Allen",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/3be6eeee-53ce-40b9-9974-c7f1edd297fe.png"
+                }
+            ],
+            "number_of_courses": 12,
+            "featured_course_id": 363,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/e0e280a3-bad7-49e3-81de-0563317cfb44.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/9589ee21-b498-4e80-8d41-7dafe6d95a8a.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/825b26f0-d370-4d7d-9176-e90912c2581e.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/743ea10c-9e38-4dfc-825c-4e556d155aa9.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-14T10:06:01Z"
+        },
+        {
+            "id": 5,
+            "domain": "ce.mindvalley.com",
+            "name": "Consciousness Engineering",
+            "type": "Academy::Channel",
+            "subscription": true,
+            "awc_product_id": "305",
+            "theme_color": "#093854",
+            "tribelearn_tribe_id": "11",
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 1,
+                    "name": "Vishen Lakhiani",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/ffb1291a-fc3d-4a3a-9a06-03c9e40c1455.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "Carol Tuttle",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/58eb8a77-35e4-47a1-9d83-ee60f7dca748.png"
+                },
+                {
+                    "id": 16,
+                    "name": "Christie Marie Sheldon",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/57d8cea5-9e3c-465a-932e-7d08a3cbfb66.jpg"
+                },
+                {
+                    "id": 103,
+                    "name": "Michael Beckwith",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/7f735450-ff3a-4474-8a2e-ca8ec980edff.jpg"
+                },
+                {
+                    "id": 8,
+                    "name": "Sonia Choquette",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/27fa6c50-7832-400d-bd83-d44e0c615527.png"
+                },
+                {
+                    "id": 74,
+                    "name": "Rajesh Setty",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/a4b2984d-3d18-4220-bcb8-27e78f24451d.jpg"
+                },
+                {
+                    "id": 76,
+                    "name": "Larry Benet",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/da7538a3-1e29-41fa-8875-991a0ecf8ce3.jpg"
+                },
+                {
+                    "id": 23,
+                    "name": "Tom Cronin",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/593b68d9-6e7a-4f31-9639-1541a112773d.png"
+                },
+                {
+                    "id": 77,
+                    "name": "Rich Litvin",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/0cbb0170-afbe-45ef-abe5-24e558ed3686.jpg"
+                },
+                {
+                    "id": 78,
+                    "name": "Dave Asprey",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/90214052-4e78-434e-9f61-136ff366fe65.jpg"
+                },
+                {
+                    "id": 79,
+                    "name": "Luminita Saviuc",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/d218cf8f-1ec5-4c51-a5d9-9b6d84766df5.jpg"
+                },
+                {
+                    "id": 80,
+                    "name": "Robert Riopel",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/6f719b67-5fbe-4771-b5fa-e55e0626ed99.jpg"
+                },
+                {
+                    "id": 81,
+                    "name": "Kamal Ravikant",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/a8c4dd50-e2ff-45bf-b9ee-ac310bdf6a65.jpg"
+                },
+                {
+                    "id": 82,
+                    "name": "Anil Gupta",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/01354534-586d-477a-b20a-f85a16133ca1.jpg"
+                },
+                {
+                    "id": 83,
+                    "name": "John Harricharan",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/3dccc455-e291-4660-9829-c54316b168b2.jpg"
+                },
+                {
+                    "id": 73,
+                    "name": "Tom Chi",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/6d5cf9c0-a0ab-4a35-99e6-84b9143e5629.jpg"
+                },
+                {
+                    "id": 89,
+                    "name": "Morty Lefkoe",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/3966d4b6-f573-47c3-82e3-25ddc94b5608.jpg"
+                },
+                {
+                    "id": 91,
+                    "name": "JJ Virgin",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/cb248ed7-093d-414c-8411-a68b99f25bbb.jpg"
+                },
+                {
+                    "id": 98,
+                    "name": "Ivan Misner",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/1c679d35-dbb2-41ab-9bd3-4f98d476f1c6.jpg"
+                },
+                {
+                    "id": 62,
+                    "name": "Ken Wilber",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/9385e77e-dbbb-47e4-9e80-3cb3de2bf7fd.jpg"
+                },
+                {
+                    "id": 100,
+                    "name": "Mira Kelley",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/72dc2052-66a3-47cb-83b3-8ba38a49f681.jpg"
+                },
+                {
+                    "id": 102,
+                    "name": "Emily Fletcher",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/85d38ae3-b9e6-4325-a477-d79ebf11e075.jpg"
+                },
+                {
+                    "id": 56,
+                    "name": "Psalm Isadora",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/0839e50e-77f8-4de2-bd1e-f573222408db.jpg"
+                },
+                {
+                    "id": 106,
+                    "name": "Yogi Cameron",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/c3032dee-8237-4a4b-b40f-70bc6b539506.jpg"
+                },
+                {
+                    "id": 110,
+                    "name": "Joe Vitale",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/010b1f46-de7e-465e-9b54-1f0b26c0e87f.jpg"
+                },
+                {
+                    "id": 107,
+                    "name": "Rhea Lalla",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/e7bb12ea-638f-49e8-b4aa-84d9a2c7217c.jpg"
+                },
+                {
+                    "id": 112,
+                    "name": "Gay Hendricks",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 114,
+                    "name": "Neil Strauss",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 49,
+                    "name": "Lisa Nichols",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/7d0d1efb-3610-4cab-8bcb-cf4321b46969.png"
+                },
+                {
+                    "id": 115,
+                    "name": "Shelly Lefkoe",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/97ee262d-ecaf-47c3-b97b-c904874c0249.jpg"
+                },
+                {
+                    "id": 85,
+                    "name": "Jeffrey Allen",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/3be6eeee-53ce-40b9-9974-c7f1edd297fe.png"
+                },
+                {
+                    "id": 38,
+                    "name": "Mike Dooley",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/566e9e57-4614-4717-9e7e-e27984453e0f.jpg"
+                },
+                {
+                    "id": 125,
+                    "name": "Peter Diamandis",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 126,
+                    "name": "Lewis Howes",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/8a78c5aa-b871-4845-9828-fad29f19d2a2.jpg"
+                },
+                {
+                    "id": 130,
+                    "name": "Marcia Wieder",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/6f4527af-b47a-41b1-b7d4-2c76ef0c0193.jpg"
+                },
+                {
+                    "id": 37,
+                    "name": "Arielle Ford",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/52fcf8ea-53d6-4363-928d-557e05351f77.jpg"
+                },
+                {
+                    "id": 124,
+                    "name": "Marisa Peer",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/474e24f8-a1c7-4eb4-95e7-7fb904508cb5.jpg"
+                },
+                {
+                    "id": 141,
+                    "name": "John Gray",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/238d9455-edd8-4ea4-b709-643f156c8a35.jpg"
+                },
+                {
+                    "id": 145,
+                    "name": "Marie Diamond",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/e9bee69a-50bb-414f-b9ac-05b164c88bd8.jpg"
+                },
+                {
+                    "id": 147,
+                    "name": "Robert Richman",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/d19883e7-04db-47c7-9a54-1104842ca051.jpg"
+                },
+                {
+                    "id": 155,
+                    "name": "Kute Blackson",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/3201ab97-4bba-4bc6-9466-33a7fe2aca4b.jpg"
+                },
+                {
+                    "id": 162,
+                    "name": "Neale Donald Walsch",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/e9c5f48a-a18c-48d1-9f80-08caf710d789.jpg"
+                },
+                {
+                    "id": 166,
+                    "name": "Srikumar Rao",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/3023c53e-6111-4b4c-aa2f-296df279ea7b.jpg"
+                },
+                {
+                    "id": 170,
+                    "name": "Crystal Andrus Morisette",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 172,
+                    "name": "Dr. Mark Hyman",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/da2355a0-b366-473b-8e1a-3381141f581d.jpg"
+                },
+                {
+                    "id": 192,
+                    "name": "Shawn Achor",
+                    "asset_cover_url": null
+                },
+                {
+                    "id": 191,
+                    "name": "Dr. Demartini",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/23af2b32-4d68-4d7d-b213-74428adbec83.jpg"
+                },
+                {
+                    "id": 206,
+                    "name": "Barbara Marx Hubbard",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/84fc0283-c778-46bb-80a3-0916ff8c4112.jpg"
+                },
+                {
+                    "id": 215,
+                    "name": "Daniel Packard",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/a124e033-4709-4fac-90eb-24513b4548b6.jpg"
+                },
+                {
+                    "id": 216,
+                    "name": "Sherry Anshara",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/474a0148-8e88-444f-af7b-610f326b1450.jpg"
+                },
+                {
+                    "id": 219,
+                    "name": "Jason Campbell",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/ab2919a0-a3e5-4fda-bf7b-09f785948fcb.jpg"
+                },
+                {
+                    "id": 226,
+                    "name": "Don Jose Ruiz",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/17519a84-b3a2-4d04-87f0-9a486dca1eb0.jpg"
+                },
+                {
+                    "id": 228,
+                    "name": "Daniel Cordaro",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/c70b6ced-c941-4328-a818-4be9b49ebe44.png"
+                },
+                {
+                    "id": 230,
+                    "name": "Bo Eason",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/a5cb8918-9797-4e63-86c0-3bf431994307.jpg"
+                },
+                {
+                    "id": 232,
+                    "name": "Tom Bilyeu",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/a68b5271-b01f-47f8-9c82-f3f852ded475.jpg"
+                },
+                {
+                    "id": 94,
+                    "name": "Joshua Wise",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/767245e9-b449-43ed-8be8-ce867a9ca7fa.png"
+                },
+                {
+                    "id": 256,
+                    "name": "Steve Cotter",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/b3ded746-105d-42c4-95a3-b6f90f09f422.jpg"
+                },
+                {
+                    "id": 257,
+                    "name": "Dan Savage",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/eae12090-e966-46b4-8b82-54ef7d2376f7.jpg"
+                },
+                {
+                    "id": 258,
+                    "name": "Rich Castellano",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/a0bb3b1c-fe9c-4b02-becf-4860e6b19016.jpg"
+                },
+                {
+                    "id": 188,
+                    "name": "Eric Edmeades",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/4ab33feb-7efe-4418-8817-c9935c0b6190.png"
+                }
+            ],
+            "number_of_courses": 70,
+            "featured_course_id": 80,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/434fb8d1-97f5-4a84-9084-0f2fb174df0e.png",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/2f545033-5f1e-4e59-8b37-a05f2e0d1c21.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/b63b9a65-9300-48fe-be47-9394f749bc9f.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/b70a3d8f-0ee4-4b02-ba87-99daf2faf8c3.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-14T10:05:25Z"
+        }
+    ],
+    "academies_count": {
+        "total": 11,
+        "subscription": 2,
+        "collection": 9
+    },
+    "deleted_academies": [
+        15,
+        1
+    ]
+}

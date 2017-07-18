@@ -1,9 +1,6 @@
 package com.mindvalley.home_library.controller.apis;
 
-import android.util.Log;
-
 import com.mindvalley.home_library.controller.API_Utils;
-import com.mindvalley.home_library.model.AcademiesModel;
 import com.mindvalley.home_library.model.ResponseAcademiesModel;
 import com.mindvalley.home_library.retrofit_services.HomeLibServices;
 
@@ -15,7 +12,7 @@ import retrofit2.Response;
  * Created by mindvalley on 12/07/2017.
  */
 
-public abstract class AcademiesAPI {
+public abstract class AcademiesAPI extends BaseAPI{
 
     public AcademiesAPI(int pageNumber, int perPage, String lastUpdateAt, String authHeader) {
         HomeLibServices homeLibServices = API_Utils.getData().create(HomeLibServices.class);
@@ -27,19 +24,17 @@ public abstract class AcademiesAPI {
 
                 if (response.body() != null) {
                     onResult(response.body());
-                }
-                else
-                    onError();
+                } else
+                    onEmptyResponse(response.code());
             }
 
             @Override
             public void onFailure(Call<ResponseAcademiesModel> call, Throwable t) {
-
+                onError(t);
             }
         });
     }
 
-    public abstract void onError();
-
     public abstract void onResult(ResponseAcademiesModel academiesModel);
+
 }

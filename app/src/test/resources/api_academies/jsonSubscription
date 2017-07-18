@@ -1,0 +1,28 @@
+ {
+            "id": 10,
+            "domain": "learn.thebiglife.com",
+            "name": "The Big Life",
+            "type": "Academy::Channel",
+            "subscription": true,
+            "awc_product_id": "468",
+            "theme_color": "#051924",
+            "tribelearn_tribe_id": null,
+            "course_ordering": "published_desc",
+            "authors": [
+                {
+                    "id": 25,
+                    "name": "Carl Harvey ",
+                    "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/40619b4c-d975-4e06-a0bd-159957465229.png"
+                }
+            ],
+            "number_of_courses": 102,
+            "featured_course_id": 563,
+            "cover_photo_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/af8e5aa9-81b6-4206-a8e7-759241f07f6e.jpg",
+            "course_cover_images": [
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/52d2a0d3-2b07-452e-9623-1a1449571fa3.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/71472d5b-3236-4893-ab2c-c4b46568262f.jpg",
+                "http://overmind2.mindvalleyacademy.com/api/v1/assets/a820022f-2bda-4ce2-92d7-a94b854def4f.jpg"
+            ],
+            "purchased": true,
+            "purchased_at": "2017-04-14T10:25:30Z"
+        }
