@@ -1,0 +1,32 @@
+{
+  "id": 1112,
+  "title": "Hai Diritto ad Essere Felice ",
+  "slug": "hai-diritto-ad-essere-felice-",
+  "awc_product_id": 446,
+  "main_color": "F29B18",
+  "average_rating": 0,
+  "nps_score": 0,
+  "tribelearn_tribe_id": null,
+  "authors": [
+    {
+      "id": 121,
+      "name": "Lucia Giovannini",
+      "asset_cover_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/45e36ccd-95f3-4493-9381-7fc989114656.jpg"
+    }
+  ],
+  "published_at": "2017-03-25T00:14:00Z",
+  "last_updated_at": "2017-07-21T15:58:16Z",
+  "course_url": "https://it.mindvalley.com/courses/hai-diritto-ad-essere-felice-",
+  "cover_image_url": "http://overmind2.mindvalleyacademy.com/api/v1/assets/e818cbb7-d2b7-407d-b6f0-bcecaf550263.png",
+  "academy_id": 21,
+  "enrolled_on": null,
+  "last_read_chapter": 6907,
+  "chapters_read": [],
+  "is_completed": false,
+  "completion_progress": {
+    "total_chapters": 9,
+    "number_of_chapters_read": 0,
+    "completion_percentage": 0
+  },
+  "purchased_at": "2017-07-24T03:45:23Z"
+}
